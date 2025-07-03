@@ -201,7 +201,7 @@ footer p {
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </div>
-            <p class="mt-3">&copy; 2025 FASHIONIN AJA. All rights reserved.</p>
+            <p class="mt-3">&copy; 2025 LookWear. All rights reserved.</p>
         </div>
     </footer>
 

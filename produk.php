@@ -127,7 +127,7 @@ $countData = mysqli_num_rows($queryProduk);
             <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
             <a href="#"><i class="fab fa-linkedin-in"></i></a>
         </div>
-        <p class="mt-3">&copy; 2025 FASHIONIN AJA. All rights reserved.</p>
+        <p class="mt-3">&copy; 2025 LookWear. All rights reserved.</p>
     </div>
 </footer>
 

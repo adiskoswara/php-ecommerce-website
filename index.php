@@ -51,7 +51,7 @@ $queryProduk = mysqli_query($con, "SELECT id_produk, nama_produk, harga, foto, d
 
 <div class="container-fluid banner d-flex align-items-center">
     <div class="container text-center">
-        <h1>FASHIONIN AJA</h1>
+        <h1>LookWear</h1>
         <h3>Nyari Apa?</h3>
         <div class="col-md-8 offset-3">
             <form method="get" action="produk.php">
@@ -91,7 +91,7 @@ $queryProduk = mysqli_query($con, "SELECT id_produk, nama_produk, harga, foto, d
     <div class="container text-center">
         <h3>Tentang Kami</h3>
         <p class="fs-5 mt-3">
-            Selamat datang di Fashionin Aja, destinasi online terpercaya untuk kebutuhan fashion Anda! Kami hadir untuk memberikan pengalaman belanja mudah dan stylish. Mulai dari pakaian kasual, hoodie, hingga sepatu, kami punya semuanya. Dengan sistem belanja yang user-friendly, pengiriman cepat, dan harga terjangkau, Fashionin Aja adalah solusi fashion tanpa ribet!
+            Selamat datang di LookWear, destinasi online terpercaya untuk kebutuhan fashion Anda! Kami hadir untuk memberikan pengalaman belanja mudah dan stylish. Mulai dari pakaian kasual, hoodie, hingga sepatu, kami punya semuanya. Dengan sistem belanja yang user-friendly, pengiriman cepat, dan harga terjangkau, LookWear adalah solusi fashion tanpa ribet!
         </p>
     </div>
 </div>
@@ -138,7 +138,7 @@ $queryProduk = mysqli_query($con, "SELECT id_produk, nama_produk, harga, foto, d
             <a href="https://www.twitter.com" target="_blank" class="me-3"><i class="fab fa-twitter"></i></a>
             <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
         </div>
-        <p class="mt-3">&copy; 2025 FASHIONIN AJA. All rights reserved.</p>
+        <p class="mt-3">&copy; 2025 LookWear. All rights reserved.</p>
     </div>
 </footer>
 

@@ -128,11 +128,11 @@ footer p {
     <div class="container-fluid py-5">
         <div class="container fs-5 text-center">
             <p>
-            Selamat datang di Fashionin Aja, destinasi 
+            Selamat datang di LookWear, destinasi 
             online terpercaya untuk memenuhi kebutuhan f
             ashion Anda! Kami hadir dengan visi memberikan
              pengalaman belanja yang mudah, nyaman, dan stylish 
-             bagi setiap pelanggan. Di Fashionin Aja, kami percay
+             bagi setiap pelanggan. Di LookWear, kami percay
              a bahwa setiap orang berhak tampil percaya diri dengan
               gaya yang mencerminkan kepribadiannya. Oleh karena itu
               , kami menyediakan berbagai koleksi fashion terkini de
@@ -169,7 +169,7 @@ footer p {
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </div>
-            <p class="mt-3">&copy; 2025 FASHIONIN AJA. All rights reserved.</p>
+            <p class="mt-3">&copy; 2025 LookWear. All rights reserved.</p>
         </div>
     </footer>
 
