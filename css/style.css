@@ -1,0 +1,379 @@
+.warna1 {
+    background-color: #181C14;
+}
+
+.warna2 {
+    background-color: #3C3D37;
+}
+
+.warna3 {
+    background-color: #697565;
+}
+
+.warna4 {
+    background-color: #ECDFCC;
+}
+
+.banner {
+    height: 80vh;
+    background-image: url('../image/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.highlighted-kategori {
+    height: 250px;
+    background-position: center; /* Memastikan gambar berada di tengah */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+}
+
+.kategori-kaos {
+    background-image: url('../image/kaos.jpg'); /* Menggunakan background-image untuk konsistensi */
+    background-size: contain;
+}
+
+.kategori-hoodie {
+    background-image: url('../image/hoodie.png'); /* Menggunakan background-image untuk konsistensi */
+    background-size: contain;
+}
+
+
+.kategori-sepatu {
+    background-image: url('../image/sepatu.png'); /* Menggunakan background-image untuk konsistensi */
+    background-size: contain;
+}
+
+.highlighted-kategori h4 {
+    font-size: 1.5rem; /* Ukuran font yang lebih besar */
+    color: white; /* Warna teks putih agar kontras */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Memberikan efek bayangan pada teks untuk meningkatkan keterbacaan */
+    font-weight: bold; /* Membuat teks lebih tebal */
+}
+
+.highlighted-kategori a {
+    text-decoration: none; /* Menghapus garis bawah pada teks link */
+    color: white; /* Mengatur warna teks link menjadi putih */
+    font-weight: bold; /* Membuat teks link lebih tebal */
+}
+
+.highlighted-kategori a:hover {
+    color: #FFD700; /* Memberikan efek hover dengan warna kuning keemasan */
+}
+
+.text-harga {
+    font-size: 20px;
+}
+
+.image-box {
+    height: 250px;
+}
+
+.image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer {
+    background-color: #181C14; /* Warna gelap untuk kontras */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Memusatkan teks */
+}
+
+footer .social-icons a {
+    color: white; /* Warna ikon media sosial */
+    font-size: 1.5rem; /* Ukuran ikon */
+    text-decoration: none; /* Menghilangkan dekorasi pada link */
+    transition: color 0.3s ease; /* Animasi efek hover */
+}
+
+footer .social-icons a:hover {
+    color: #FFD700; /* Warna kuning saat di-hover */
+}
+
+footer p {
+    margin: 0; /* Menghilangkan margin default */
+    font-size: 0.9rem; /* Ukuran teks lebih kecil */
+}
+
+
+.list-group a {
+    text-decoration: none;
+}
+
+.produk-terkait-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+/* Styling untuk banner utama */
+.banner h1 {
+    font-family: 'Poppins', sans-serif; /* Menggunakan font modern dan stylish */
+    font-size: 4rem; /* Ukuran font lebih besar untuk judul utama */
+    font-weight: 700; /* Bold untuk kesan kuat */
+    color: #FFD700; /* Warna emas agar lebih mencolok */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); /* Efek bayangan untuk teks lebih jelas */
+    letter-spacing: 2px; /* Spasi huruf lebih lebar untuk efek elegan */
+    text-transform: uppercase; /* Semua huruf menjadi kapital */
+   
+}
+
+/* Styling untuk subjudul 'Nyari Apa?' */
+.banner h3 {
+    font-family: 'Poppins', sans-serif; /* Menggunakan font modern dan stylish */
+    font-size: 2rem; /* Ukuran font lebih besar untuk judul utama */
+    font-weight: 700; /* Bold untuk kesan kuat */
+    color: #FFD700; /* Warna emas agar lebih mencolok */
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.6); /* Efek bayangan untuk teks lebih jelas */
+    letter-spacing: 2px; /* Spasi huruf lebih lebar untuk efek elegan */
+    text-transform: uppercase; /* Semua huruf menjadi kapital */
+}
+
+/* Styling untuk form input pencarian */
+.banner .input-group {
+    max-width: 600px; /* Membuat form lebih ramping di tengah layar */
+    left: 0;
+
+}
+
+.banner .form-control {
+    font-family: 'Montserrat', sans-serif; /* Font yang modern untuk input */
+    font-size: 1.1rem;
+    border-radius: 25px; /* Membuat border input lebih melengkung */
+    padding: 15px; /* Memberikan padding yang nyaman */
+    flex-grow: 1; /* Memungkinkan input untuk mengisi ruang yang tersedia */
+}
+
+.banner button {
+    font-family: 'Poppins', sans-serif; /* Menjaga konsistensi font */
+    font-weight: 600;
+    color: #fff;
+    background-color: grey; /* Warna tombol lebih segar dan stylish */
+    border-radius: 25px;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease;
+}
+
+.banner button:hover {
+    background-color: #FFD700; /* Memberikan warna emas saat hover */
+    color: #000; /* Mengubah warna teks menjadi gelap saat hover */
+    
+}
+
+/* Styling untuk Card Produk */
+.card {
+    border: none; /* Menghapus border default */
+    border-radius: 10px; /* Sudut melengkung pada kartu */
+    overflow: hidden; /* Menyembunyikan bagian yang melampaui border */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animasi transformasi dan shadow */
+    background-color: #ECDFCC; /* Latar belakang kartu dengan warna terang */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Memberikan bayangan lembut pada kartu */
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Efek angkat saat hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Bayangan lebih dalam saat hover */
+}
+
+/* Styling untuk gambar dalam kartu */
+.card .image-box img {
+    width: 100%; /* Membuat gambar memenuhi lebar kartu */
+    height: 200px; /* Mengatur tinggi gambar */
+    object-fit: cover; /* Menjaga rasio aspek gambar agar tidak terdistorsi */
+    object-position: center; /* Menjaga fokus gambar di tengah */
+    border-radius: 8px 8px 0 0; /* Sudut melengkung hanya di bagian atas */
+}
+
+/* Styling untuk bagian teks dalam kartu */
+.card-body {
+    padding: 20px; /* Memberikan padding pada bagian dalam kartu */
+    text-align: center; /* Menjaga teks agar terpusat */
+}
+
+.card-title {
+    font-family: 'Poppins', sans-serif; /* Font modern untuk judul produk */
+    font-size: 1.25rem; /* Ukuran font judul yang cukup besar */
+    font-weight: 600; /* Memberikan ketebalan pada judul */
+    color: #181C14; /* Warna gelap agar kontras dengan latar belakang */
+    margin-bottom: 10px; /* Memberikan jarak bawah pada judul */
+}
+
+.card-text {
+    font-family: 'Montserrat', sans-serif; /* Font yang lebih sederhana untuk detail produk */
+    font-size: 0.95rem; /* Ukuran font untuk detail produk */
+    color: #3C3D37; /* Warna teks lebih terang agar mudah dibaca */
+    margin-bottom: 15px; /* Memberikan jarak bawah pada deskripsi */
+    line-height: 1.5; /* Memberikan jarak antar baris pada teks */
+    height: 50px; /* Membatasi tinggi deskripsi agar tetap rapi */
+    overflow: hidden; /* Menyembunyikan teks yang melebihi batas */
+    text-overflow: ellipsis; /* Menambahkan "..." jika teks terlalu panjang */
+}
+
+.text-harga {
+    font-size: 1.1rem; /* Ukuran font untuk harga produk */
+    font-weight: 600; /* Menebalkan harga */
+    color: black; /* Warna emas untuk harga agar menarik perhatian */
+}
+
+.card .btn {
+    font-family: 'Montserrat', sans-serif; /* Font yang serasi dengan teks lainnya */
+    font-size: 1rem; /* Ukuran font tombol */
+    padding: 10px 20px; /* Memberikan ruang pada tombol */
+    background-color: #181C14; /* Latar belakang tombol yang gelap */
+    color: white; /* Warna teks tombol putih */
+    border: none; /* Menghapus border tombol */
+    border-radius: 5px; /* Sudut melengkung pada tombol */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Efek perubahan warna dan transformasi */
+}
+
+.card .btn:hover {
+    background-color: #FFD700; /* Mengubah warna tombol menjadi emas saat hover */
+    color: #181C14; /* Mengubah warna teks tombol menjadi gelap saat hover */
+    transform: translateY(-5px); /* Efek angkat tombol saat hover */
+}
+
+/* Responsif untuk tampilan mobile */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px; /* Mengurangi padding pada perangkat kecil */
+    }
+
+    .card-title {
+        font-size: 1.1rem; /* Menurunkan ukuran font judul pada perangkat kecil */
+    }
+
+    .card-text {
+        font-size: 0.9rem; /* Menurunkan ukuran font deskripsi */
+    }
+
+    .card .image-box img {
+        height: 180px; /* Menurunkan tinggi gambar pada perangkat kecil */
+    }
+}
+
+/* Styling untuk tombol "See More" */
+.btn-outline-secondary {
+    font-family: 'Poppins', sans-serif; /* Font yang serasi dan modern */
+    font-size: 1rem; /* Ukuran font yang pas untuk tombol */
+    padding: 12px 30px; /* Memberikan ruang yang cukup pada tombol */
+    border: 2px solid #FFD700; /* Border dengan warna emas untuk kesan elegan */
+    background-color: transparent; /* Latar belakang transparan untuk kesan minimalis */
+    color: #FFD700; /* Warna teks emas agar kontras dengan latar belakang */
+    border-radius: 30px; /* Sudut tombol lebih melengkung */
+    text-transform: uppercase; /* Semua huruf menjadi kapital untuk tampilan yang lebih tegas */
+    letter-spacing: 2px; /* Memberikan jarak antar huruf */
+    transition: all 0.3s ease; /* Animasi untuk perubahan efek */
+    display: inline-block; /* Memastikan tombol tetap dalam satu baris */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+}
+
+.btn-outline-secondary:hover {
+    background-color: #FFD700; /* Mengubah latar belakang menjadi emas saat hover */
+    color: #181C14; /* Mengubah warna teks menjadi gelap */
+    transform: translateY(-5px); /* Efek angkat tombol saat hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Memberikan bayangan halus saat hover */
+}
+
+.btn-outline-secondary:focus {
+    outline: none; /* Menghilangkan outline default saat tombol fokus */
+}
+
+/* Responsif untuk tampilan mobile */
+@media (max-width: 768px) {
+    .btn-outline-secondary {
+        font-size: 0.9rem; /* Menurunkan ukuran font pada perangkat kecil */
+        padding: 10px 25px; /* Menyesuaikan padding pada perangkat kecil */
+    }
+}
+
+/* Styling untuk bagian kategori */
+/* Styling untuk bagian kategori */
+.col-lg-3 {
+    background-color: #f4f4f4; /* Memberikan latar belakang yang cerah */
+    padding: 20px;
+    border-radius: 10px; /* Sudut yang lebih halus */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Memberikan bayangan halus pada seluruh box */
+    height: auto; /* Menghindari box memanjang ke bawah */
+    max-height: 450px; /* Membatasi tinggi box */
+    overflow-y: auto; /* Membuat scroll jika isi terlalu banyak */
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif; /* Menggunakan font modern */
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #181C14; /* Warna teks gelap untuk kontras */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #FFD700; /* Garis bawah dengan warna emas */
+    padding-bottom: 5px;
+}
+
+/* Styling untuk list kategori */
+.list-group {
+    padding-left: 0; /* Menghilangkan padding kiri default */
+    margin-bottom: 0; /* Menghilangkan margin bawah */
+    max-height: 350px; /* Membatasi tinggi list */
+    overflow-y: auto; /* Scroll jika daftar terlalu panjang */
+}
+
+/* Styling untuk item kategori */
+.list-group-item {
+    background-color: #fff; /* Warna latar belakang putih untuk setiap item */
+    border: 1px solid #ddd; /* Memberikan border tipis dengan warna abu-abu */
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif; /* Font yang lebih elegan */
+    color: #181C14; /* Warna teks gelap */
+    padding: 12px 20px;
+    transition: all 0.3s ease; /* Animasi transisi untuk efek hover */
+}
+
+.list-group-item:hover {
+    background-color: #FFD700; /* Warna latar belakang emas saat hover */
+    color: #fff; /* Mengubah warna teks menjadi putih saat hover */
+    transform: translateX(5px); /* Memberikan efek pergeseran horizontal saat hover */
+}
+
+.list-group-item:active {
+    background-color: #B38800; /* Mengubah warna saat klik */
+    transform: translateY(2px); /* Memberikan efek sedikit turun saat klik */
+}
+
+.list-group-item a {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: inherit; /* Menggunakan warna teks yang sama dengan item */
+    font-weight: bold; /* Membuat teks menjadi tebal */
+}
+
+.list-group-item a:hover {
+    color: #fff; /* Warna teks link berubah menjadi putih saat hover */
+}
+
+.list-group-item.active {
+    background-color: #FFD700; /* Warna latar belakang aktif */
+    color: #fff; /* Warna teks aktif */
+}
+
+/* Responsif untuk tampilan mobile */
+@media (max-width: 768px) {
+    .col-lg-3 {
+        margin-bottom: 20px;
+        padding: 15px;
+        height: auto; /* Menyesuaikan tinggi box untuk tampilan mobile */
+        max-height: none; /* Menghapus batasan tinggi untuk tampilan mobile */
+    }
+    h3 {
+        font-size: 1.5rem;
+    }
+    .list-group-item {
+        font-size: 0.9rem;
+    }
+}
+
+
